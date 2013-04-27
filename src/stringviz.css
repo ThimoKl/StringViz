@@ -1,4 +1,4 @@
-.StrVizContainer {
+.StringVizContainer {
 	/* Font must be monospaced / fixed-width */
 	font-family: "Courier New", Courier, monospace;
 	font-weight: normal;
@@ -10,19 +10,19 @@
 	margin: 1em 0 0 0;
 }
 
-.StrVizContainer .StrVizText {
+.StringVizContainer .StringVizText {
 	border: none;
 	display: inline-block;
 }
 
 
-.StrVizContainer .StrVizBoxes {
+.StringVizContainer .StringVizBoxes {
 	border: none;
 	position: relative;
 	font-size: 0.8em;
 }
 
-.StrVizContainer .StrVizBox {
+.StringVizContainer .StringVizBox {
 	position: absolute;
 	border-left: 1px solid red;
 	padding-left: 2px;
