@@ -15,6 +15,16 @@ StringViz.visualize(
         { 'position': 28, 'text': 'End'}
     ]
 );
+
+StringViz.visualize(
+    'The product "NameABC" is $99.99',
+    [
+        { 'position': 13, 'text': 'p1'},
+        { 'position': 20, 'text': 'p2'},
+        { 'position': 26, 'text': 'p3'},
+        { 'position': 31, 'text': 'p4'}
+    ]
+);
 `````
 ![Output](example.jpg)
 
