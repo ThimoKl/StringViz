@@ -26,3 +26,7 @@ jQuery is required.
 ## Contributing 
 
 Anyone and everyone is welcome to contribute.
+
+## Author
+
+Twitter: [@ThimoKl](https://twitter.com/ThimoKl)
