@@ -1,13 +1,12 @@
-## Welcome to StrViz
+## Welcome to StringViz
 
-StrViz is a little tool to visualize positions of a string.
+StringViz is a little tool to visualize positions of a string.
 
-StrViz can make it easier to scrape a website, analyze xml or filter entities from a raw string. 
+StringViz can make it easier to scrape a website, analyze xml or filter entities from a raw string. 
 
 ## Demo
 
 This code creates the following output.
-
 `````javascript
 StrViz.visualize(
     '<img src="/path/to/image.png" width="40px" />',
