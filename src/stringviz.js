@@ -1,6 +1,6 @@
-var StrViz = {};
+var StringViz = {};
 
-StrViz.visualize = function(string, positions) {
+StringViz.visualize = function(string, positions) {
 	var i = 0;
 	var letterWidth = 0;
 	var boxMaxHeight = 0;
@@ -10,8 +10,8 @@ StrViz.visualize = function(string, positions) {
 	var $boxes;
 	var $box;
 
-	// Find empty StrViz container
-	$('.StrVizContainer').each(function() {
+	// Find empty StringViz container
+	$('.StringVizContainer').each(function() {
 		if($(this).is(':empty')) {
 			$container = $(this);
 			return false;
@@ -21,15 +21,15 @@ StrViz.visualize = function(string, positions) {
 
 	// No empty container -> Append new container to body
 	if(!$container) {
-		$container = $('<div class="StrVizContainer">').appendTo('body');
+		$container = $('<div class="StringVizContainer">').appendTo('body');
 	}
 
 	// Add string to container
-	$text = $('<span class="StrVizText" />').appendTo($container);
+	$text = $('<span class="StringVizText" />').appendTo($container);
 	$text.text(string);
 
 	// Create wrapper for all boxes
-	$boxes = $('<div class="StrVizBoxes" />').appendTo($container);
+	$boxes = $('<div class="StringVizBoxes" />').appendTo($container);
 
 	// Calculate width of a single letter 
 	letterWidth = ($text.width()/string.length);
@@ -39,7 +39,7 @@ StrViz.visualize = function(string, positions) {
 		boxHtml = positions[i].position+"<br />\n"+positions[i].text;
 
 		// Add box
-		$box = $('<span class="StrVizBox" />').appendTo($boxes);
+		$box = $('<span class="StringVizBox" />').appendTo($boxes);
 		$box.html(boxHtml).css({
 			'left': (letterWidth*positions[i].position)+'px'
 		});
