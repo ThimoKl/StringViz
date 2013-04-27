@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="strviz.css">
+    </head>
+    <body>
+
+        First string:
+        <div class="StrVizContainer"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="strviz.js"></script>
+        <script>
+            $(document).ready(function() {
+                StrViz.visualize(
+                    'The product "NameABC" is $99.99',
+                    [
+                        { 'position': 13, 'text': 'p1'},
+                        { 'position': 20, 'text': 'p2'},
+                        { 'position': 26, 'text': 'p3'},
+                        { 'position': 31, 'text': 'p4'}
+                    ]
+                );
+
+                StrViz.visualize(
+                    '<img src="/path/to/image.png" width="40px" />',
+                    [
+                        { 'position': 10, 'text': 'Start'},
+                        { 'position': 28, 'text': 'End'}
+                    ]
+                );
+
+            });            
+        </script>
+
+        Automatically added container:
+    </body>
+</html>
+

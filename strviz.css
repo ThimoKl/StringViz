@@ -1,0 +1,29 @@
+.StrVizContainer {
+	/* Font must be monospaced / fixed-width */
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	letter-spacing: 1px;
+
+	border: none;
+	margin: 1em 0 0 0;
+}
+
+.StrVizContainer .StrVizText {
+	border: none;
+	display: inline-block;
+}
+
+
+.StrVizContainer .StrVizBoxes {
+	border: none;
+	position: relative;
+	font-size: 0.8em;
+}
+
+.StrVizContainer .StrVizBox {
+	position: absolute;
+	border-left: 1px solid red;
+	padding-left: 2px;
+}
