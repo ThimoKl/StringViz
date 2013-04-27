@@ -8,7 +8,7 @@ StringViz can make it easier to scrape a website, analyze xml or filter entities
 
 This code creates the following output.
 `````javascript
-StrViz.visualize(
+StringViz.visualize(
     '<img src="/path/to/image.png" width="40px" />',
     [
         { 'position': 10, 'text': 'Start'},
