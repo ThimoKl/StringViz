@@ -1,8 +1,10 @@
+## Welcome to StrViz
+
 StrViz is a little tool to visualize positions of a string.
 
 StrViz can make it easier to scrape a website, analyze xml or filter entities from a raw string. 
 
-** Demo
+## Demo
 
 This code creates the following output.
 
@@ -17,10 +19,11 @@ StrViz.visualize(
 `````
 ![Output](example.jpg)
 
-** Download
+## Download
 
 Just download all three files.
 jQuery is required.
 
-** Contributing 
+## Contributing 
+
 Anyone and everyone is welcome to contribute.
