@@ -8,13 +8,13 @@
     <body>
 
         First string:
-        <div class="StrVizContainer"></div>
+        <div class="StringVizContainer"></div>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="strviz.js"></script>
         <script>
             $(document).ready(function() {
-                StrViz.visualize(
+                StringViz.visualize(
                     'The product "NameABC" is $99.99',
                     [
                         { 'position': 13, 'text': 'p1'},
@@ -24,7 +24,7 @@
                     ]
                 );
 
-                StrViz.visualize(
+                StringViz.visualize(
                     '<img src="/path/to/image.png" width="40px" />',
                     [
                         { 'position': 10, 'text': 'Start'},
