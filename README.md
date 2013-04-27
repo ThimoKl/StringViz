@@ -2,7 +2,7 @@
 
 StringViz is a little tool to visualize positions of a string.
 
-StringViz can make it easier to scrape a website, analyze xml or filter entities from a raw string. 
+StringViz will save you some time when parsing data, scraping a website or analyzing xml.
 
 ## Demo
 
